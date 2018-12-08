@@ -2,7 +2,7 @@
   "name": "cargo",
   "version": "0.0.0",
   "description": "Fetch site listings to be parsed against selection criteria",
-  "main": "index.js",
+  "main": "./app",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,8 @@
   "dependencies": {
     "minimist": "^1.2.0",
     "x-ray": "^2.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0"
   }
 }
